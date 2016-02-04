@@ -90,25 +90,25 @@ FOOTER
 *******************************/
 
 
-footer {
+.footer {
   width: 100%;
   position: relative;
   top: 160px;
   margin-top: 0;
 }
 
-footer .copyright {
+.footer .copyright {
   top: -8px;
   font-size: .60em;
 }
 
-footer ul {
+.footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-footer ul li {
+.footer ul li {
   display: inline-block;
 }
 
@@ -278,7 +278,7 @@ MEDIA QUERIES
     line-height: 1.6em;
   }
 
-  footer {
+  .footer {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 10px auto;
